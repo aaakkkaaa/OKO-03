@@ -1813,7 +1813,7 @@ public class sFlightRadar : MonoBehaviour {
         {
             mySI = !mySI;
         }
-        else if (Input.GetKey("escape")) // Клавиша "Ecs": Выход из программы
+        else if (Input.GetKey(KeyCode.Escape)) // Клавиша "Esc" (в Android смартфоне - "Back"): Выйти из программы
         {
             Application.Quit();
         }
