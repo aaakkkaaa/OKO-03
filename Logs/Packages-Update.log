@@ -59,3 +59,11 @@ The following packages were updated:
   com.unity.xr.oculus.standalone from version 1.36.0 to 1.38.3
 The following packages were removed:
   com.unity.package-manager-ui@2.2.0
+
+=== Wed Dec 18 02:44:16 2019
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.ide.rider from version 1.1.0 to 1.1.4
