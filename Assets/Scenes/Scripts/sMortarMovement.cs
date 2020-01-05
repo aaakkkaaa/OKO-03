@@ -212,11 +212,11 @@ public class sMortarMovement : MonoBehaviour
                     myCurMouseX = Input.mousePosition.x;
                     if (myCurMouseX > myOldMouseX)
                     {
-                        w = w + 1.0f;
+                        w = w + 0.1f;
                     }
                     else if (myCurMouseX < myOldMouseX)
                     {
-                        w = w - 1.0f;
+                        w = w - 0.1f;
                     }
                 }
 
