@@ -2406,7 +2406,7 @@ public class sFlightRadar : MonoBehaviour {
     {
         // Пускаем луч от угла баннера в камеру
         Ray rayCorner = new Ray(myCorner.position, Camera.main.transform.position - myCorner.position);
-        Debug.DrawLine(rayCorner.origin, Camera.main.transform.position, Color.red);
+        //Debug.DrawLine(rayCorner.origin, Camera.main.transform.position, Color.red);
 
         // Пускаем луч от камеры в угол баннера
         //Ray rayCorner = new Ray(Camera.main.transform.position, myCorner.position - Camera.main.transform.position);
@@ -2432,7 +2432,7 @@ public class sFlightRadar : MonoBehaviour {
                         return false;
                     }
                     //_Record.MyLog("Banners", "Баннер рейса " + myPlane.Call + " (" + myPlane.Key + ") закрыт баннером рейса " + myPlaneVis[hitCorner[j].transform.parent.name].Call + " (" + hitCorner[j].transform.parent.name + ")");
-                    Debug.DrawLine(rayCorner.origin, hitCorner[j].point, Color.red);
+                    //Debug.DrawLine(rayCorner.origin, hitCorner[j].point, Color.red);
                     return true;
                 }
             }
